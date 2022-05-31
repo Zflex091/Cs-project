@@ -1,0 +1,139 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../paveikslėliai/NUKE_2.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  .text-area {
+    float: center;
+    list-style: center;
+    margin-top: 15px;
+    padding-right: 200px;
+  }
+  .text-area li {
+    display: inline-block;
+  }
+  .text-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+  }
+  .text-area li a:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  .logo img {
+    width: 300px;
+    float: left;
+    padding-left: -30%;
+    padding-top: -10%;
+  }
+  a:hover {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .wrap .button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrap .button:hover {
+    width: 150px;
+  }
+  .wrap .button .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  .wrap .button:nth-child(1):hover .icon {
+    background: #234fa5;
+  }
+  
+  .wrap .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  
+  .wrap .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  
+  .wrap .button:nth-child(4):hover .icon {
+    background: #ff0000;
+  }
+  
+  .wrap .button .icon i {
+    font-size: 15px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  .wrap .button:hover .icon i {
+    color: #fff;
+  }
+  .wrap .button span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrap .button:nth-child(1):hover span {
+    color: #234fa5;
+  }
+  
+  .wrap .button:nth-child(2):hover span {
+    color: #1da1f2;
+  }
+  
+  .wrap .button:nth-child(3):hover span {
+    color: #e1306c;
+  }
+  
+  .wrap .button:nth-child(4):hover span {
+    color: #ff0000;
+  }
+  .wrap {
+    padding-top: -5%;
+    padding-left: 42%;
+  }
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}s
+.col-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-4 img {
+  width: 100px;
+}
