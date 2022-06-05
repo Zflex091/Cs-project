@@ -5,16 +5,15 @@ h4,
 p,
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 }
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../paveikslėliai/NUKE_2.png");
+    url("../paveikslėliai/NUKE_2.png"),
+    url("../paveikslėliai/horse.png");
   height: 100vh;
   background-size: cover;
   background-position: center center;
