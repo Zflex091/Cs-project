@@ -17,11 +17,11 @@ body {
   margin-left: 275px;
 }
 
-.box {
+.box  {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-right: 10px;
   padding-left: 25px;
   
