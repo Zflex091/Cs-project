@@ -79,19 +79,19 @@ a:hover {
   transition: all 0.3s ease-out;
 }
 .wrap .button:nth-child(1):hover .icon {
-  background: #234fa5;
+  background: #ffffff;
 }
 
 .wrap .button:nth-child(2):hover .icon {
-  background: #e1306c;
+  background: #ffffff;
 }
 
 .wrap .button:nth-child(3):hover .icon {
-  background: #ff0000;
+  background: #ffffff;
 }
 
 .wrap .button:nth-child(4):hover .icon {
-  background: #2d10cf;
+  background: #ffffff;
 }
 
 .wrap .button .icon i {
