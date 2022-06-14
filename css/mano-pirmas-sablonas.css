@@ -5,13 +5,13 @@ h4,
 p,
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../paveikslėliai/NUKE_2.png");
 
   height: 100vh;
@@ -21,10 +21,10 @@ body {
 }
 
 .text-area {
-  float: midle;
+  float: right;
   list-style: none;
   margin-top: 15px;
-  padding-right: 200px;
+  padding-right: 700px;
 }
 .text-area li {
   display: inline-block;
@@ -83,15 +83,15 @@ a:hover {
 }
 
 .wrap .button:nth-child(2):hover .icon {
-  background: #1da1f2;
-}
-
-.wrap .button:nth-child(3):hover .icon {
   background: #e1306c;
 }
 
-.wrap .button:nth-child(4):hover .icon {
+.wrap .button:nth-child(3):hover .icon {
   background: #ff0000;
+}
+
+.wrap .button:nth-child(4):hover .icon {
+  background: #2d10cf;
 }
 
 .wrap .button .icon i {
@@ -114,15 +114,15 @@ a:hover {
 }
 
 .wrap .button:nth-child(2):hover span {
-  color: #1da1f2;
-}
-
-.wrap .button:nth-child(3):hover span {
   color: #e1306c;
 }
 
-.wrap .button:nth-child(4):hover span {
+.wrap .button:nth-child(3):hover span {
   color: #ff0000;
+}
+
+.wrap .button:nth-child(4):hover span {
+  color: #2d10cf;
 }
 .wrap {
   padding-top: -5%;

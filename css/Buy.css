@@ -10,21 +10,21 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 185px 185px 185px;
-  grid-template-rows: 185px 185px 185px ;
+  grid-template-rows: 185px 185px 185px;
   grid-gap: 10px;
   color: #444;
   margin-top: 35px;
   margin-left: 275px;
 }
 
-.box  {
+.box {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
   padding-top: 5px;
   padding-right: 10px;
   padding-left: 25px;
-  
+
   font-size: 150%;
 }
 .box img {
@@ -143,4 +143,3 @@ a:hover {
   padding-top: -5%;
   padding-left: 42%;
 }
-
