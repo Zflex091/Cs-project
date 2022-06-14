@@ -9,13 +9,10 @@ body {
 }
 .wrapper {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: 185px 185px 185px;
   grid-template-rows: 185px 185px 185px;
-=======
-  grid-template-columns: 185px 185px 185px 185px 185px 185px ;
-  grid-template-rows: 185px 185px 185px ;
->>>>>>> ba16d77c391dbaed1c2a50312ed9b105d134a28a
+  grid-template-columns: 185px 185px 185px 185px 185px 185px;
+  grid-template-rows: 185px 185px 185px;
   grid-gap: 10px;
   color: #444;
   margin-top: 35px;
@@ -31,7 +28,7 @@ body {
   padding-right: 10px;
   padding-left: 25px;
 
-  font-size: 150%;;
+  font-size: 150%;
 
   display: block;
   position: relative;
@@ -44,10 +41,8 @@ body {
   left: 50%;
   width: 140px;
   height: 105px;
-  
-  transform: translateX(-50%);
-  
 
+  transform: translateX(-50%);
 }
 
 .box-p {
