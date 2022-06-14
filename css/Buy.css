@@ -9,12 +9,13 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 185px 185px 185px;
+  grid-template-columns: 185px 185px 185px 185px 185px 185px ;
   grid-template-rows: 185px 185px 185px ;
   grid-gap: 10px;
   color: #444;
   margin-top: 35px;
   margin-left: 275px;
+  margin-right: 0px;
 }
 
 .box  {
@@ -26,8 +27,22 @@ body {
   padding-left: 25px;
   
   font-size: 150%;
+
+  display: block;
+  position: relative;
 }
 .box img {
+  position: absolute;
+  object-fit: cover;
+  top: 28px;
+  margin: 0 auto;
+  left: 50%;
+  width: 140px;
+  height: 105px;
+  
+  transform: translateX(-50%);
+  
+
 }
 
 .box-p {
@@ -35,6 +50,20 @@ body {
   list-style: center;
 }
 
+.box div.footer {
+  position: absolute;
+  top: 143px;
+}
+
+div.line1 {
+  font-size: 15px;
+}
+.line1 .statrak {
+  color: #e5864e;
+}
+div.line2 {
+  font-size: 17px;
+}
 .text-area {
   float: center;
   list-style: center;
