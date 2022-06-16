@@ -128,3 +128,8 @@ a:hover {
   padding-top: -5%;
   padding-left: 42%;
 }
+.skin {
+  padding-left: 320px;
+  width: 550px;
+  height: 400px;
+}
