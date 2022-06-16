@@ -1,6 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../paveikslėliai/NUKE_2.png");
+  background-color: #272727;
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -14,14 +13,14 @@ body {
   grid-template-columns: 185px 185px 185px 185px 185px 185px;
   grid-template-rows: 185px 185px 185px;
   grid-gap: 10px;
-  color: #444;
+  color: black;
   margin-top: 35px;
   margin-left: 275px;
   margin-right: 0px;
 }
 
 .box {
-  background-color: #444;
+  background-color: #404040;
   color: #fff;
   border-radius: 5px;
   padding-top: 5px;
