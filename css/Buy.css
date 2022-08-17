@@ -15,10 +15,10 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 185px 185px 185px;
-  grid-template-rows: 185px 185px 185px;
-  grid-template-columns: 185px 185px 185px 185px 185px 185px;
-  grid-template-rows: 185px 185px 185px;
+  grid-template-columns: 185px 185px 185px ;
+  grid-template-rows: 185px 185px 185px ;
+  grid-template-columns: 185px 185px 185px 185px 185px 185px 185px 185px ;
+  grid-template-rows: 185px 185px 185px ;
   grid-gap: 10px;
   color: black;
   margin-top: 35px;
